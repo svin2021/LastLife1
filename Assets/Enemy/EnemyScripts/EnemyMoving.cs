@@ -4,6 +4,7 @@ public class EnemyMoving : MonoBehaviour
 {
     void FixedUpdate()
     {
+        //Enemys moving by this functions:
         if (transform.position.x < 5)
             transform.position = new Vector3(transform.position.x + 0.2f, -4f, 0f);
 
@@ -12,6 +13,5 @@ public class EnemyMoving : MonoBehaviour
             
         if (transform.position.x >= 13)
             transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, 0f);
-
     }
 }

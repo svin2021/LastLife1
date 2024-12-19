@@ -58,14 +58,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Building\SectorMode.cs" />
-    <Compile Include="Assets\Scenes\Enemy\Grid.cs" />
-    <Compile Include="Assets\Scenes\Enemy\EnemySpawner.cs" />
-    <Compile Include="Assets\Building\ApproveButton.cs" />
-    <Compile Include="Assets\Building\GridSize.cs" />
-    <Compile Include="Assets\Building\BuyButton.cs" />
-    <Compile Include="Assets\Building\BuildMode.cs" />
-    <Compile Include="Assets\Scenes\Enemy\EnemyMoving.cs" />
+    <Compile Include="Assets\UtilityScripts\GridSize.cs" />
+    <Compile Include="Assets\Building\BuildScripts\ButtonScripts\BuyButton.cs" />
+    <Compile Include="Assets\Building\BuildScripts\ObjectScripts\SectorMode.cs" />
+    <Compile Include="Assets\Enemy\EnemyScripts\Waves.cs" />
+    <Compile Include="Assets\Enemy\EnemyScripts\EnemySpawner.cs" />
+    <Compile Include="Assets\Building\BuildScripts\ObjectScripts\ApproveButton.cs" />
+    <Compile Include="Assets\Building\BuildScripts\ButtonScripts\BuildMode.cs" />
+    <Compile Include="Assets\Enemy\EnemyScripts\EnemyMoving.cs" />
+    <Compile Include="Assets\Building\BuildScripts\ObjectScripts\Grid.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
